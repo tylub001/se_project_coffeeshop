@@ -4,6 +4,7 @@
   background-image: url(../images/se_project_2_files/background_recipes.svg);
   padding: 100px 80px 215px;
   background-position: center;
+  background-size: cover;
 }
 
 .recipes__title {
