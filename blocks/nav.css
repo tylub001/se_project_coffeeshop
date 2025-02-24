@@ -21,7 +21,7 @@
 
 .nav__link {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   transition: opacity 0.5s;
   cursor: pointer;
 }

@@ -8,6 +8,9 @@
   padding: 30px 80px 40px;
   position: relative;
   background-repeat: no-repeat;
+  z-index: 1;
+  background-position: center;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -24,6 +27,7 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #3f96f3;
+  font-weight: 400;
 }
 
 .header__description {
@@ -40,6 +44,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {

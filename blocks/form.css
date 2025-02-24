@@ -22,6 +22,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border-radius: 4px;
 }
 
 .form__button {
@@ -33,7 +34,7 @@
   margin-bottom: 32px;
   font-weight: 500;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
   transition: background-color 0.3s ease;
   cursor: pointer;
 }
@@ -42,28 +43,15 @@
   background-color: #3f96f3;
 }
 
-.form__checkbox {
+.form__checkbox:checked {
   border-radius: 2px;
   width: 20px;
   height: 20px;
+  border: 1px solid #838383;
 }
 
 .form__label_type_checkbox {
   display: flex;
   gap: 12px;
   justify-content: center;
-}
-
-input[type="checkbox"] {
-  background-color: #1878dc;
-  width: 20px;
-  height: 20px;
-  appearance: none;
-  cursor: pointer;
-}
-
-input[type="checkbox"]:checked {
-  background-image: url(../images/se_project_2_files/check.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
